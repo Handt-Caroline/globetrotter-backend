@@ -1,0 +1,19 @@
+{
+  "users": [],
+  "sites": [
+    {
+      "id": "s1",
+      "name": "Example Site Name",
+      "description": "Short description of the site",
+      "category": "nature",
+      "region": "Your Region",
+      "lat": 3.848,
+      "lng": 11.502,
+      "imageUrl": "https://example.com/image.jpg",
+      "price": 2000
+    }
+  ],
+  "itineraries": [],
+  "bookings": [],
+  "payments": []
+}
