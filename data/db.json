@@ -3,13 +3,112 @@
   "sites": [
     {
       "id": "s1",
-      "name": "Example Site Name",
-      "description": "Short description of the site",
+      "name": "Cameroon Reunification Monument",
+      "description": "A historic monument commemorating Cameroon's 1961 reunification, featuring a spiral walkway and panoramic views of Yaoundé.",
+      "category": "history",
+      "region": "Yaoundé",
+      "lat": 3.8525198,
+      "lng": 11.5134167,
+      "imageUrl": "https://example.com/reunification-monument.jpg",
+      "price": 1000
+    },
+    {
+      "id": "s2",
+      "name": "Mvog-Betsi Zoological and Botanical Garden",
+      "description": "A relaxing zoo and botanical garden home to a diverse range of animal species and plants, popular with families.",
       "category": "nature",
-      "region": "Your Region",
-      "lat": 3.848,
-      "lng": 11.502,
-      "imageUrl": "https://example.com/image.jpg",
+      "region": "Yaoundé",
+      "lat": 3.86478,
+      "lng": 11.4875163,
+      "imageUrl": "https://example.com/mvog-betsi-zoo.jpg",
+      "price": 1500
+    },
+    {
+      "id": "s3",
+      "name": "Mefou National Park (Ape Action Africa)",
+      "description": "A wildlife sanctuary near Yaoundé dedicated to rescuing and protecting gorillas, chimpanzees, and other primates.",
+      "category": "nature",
+      "region": "Yaoundé",
+      "lat": 3.6253619,
+      "lng": 11.5812826,
+      "imageUrl": "https://example.com/mefou-park.jpg",
+      "price": 5000
+    },
+    {
+      "id": "s4",
+      "name": "Basilica of Mary Queen of the Apostles",
+      "description": "A striking Catholic basilica in Mvolyé known for its architecture and panoramic hilltop views of the city.",
+      "category": "culture",
+      "region": "Yaoundé",
+      "lat": 3.8423156,
+      "lng": 11.5077361,
+      "imageUrl": "https://example.com/basilica-mvolye.jpg",
+      "price": 0
+    },
+    {
+      "id": "s5",
+      "name": "Blackitude Museum",
+      "description": "A small but rich museum showcasing traditional Cameroonian art, masks, sculptures, and ceremonial artifacts.",
+      "category": "culture",
+      "region": "Yaoundé",
+      "lat": 3.8641926,
+      "lng": 11.5183432,
+      "imageUrl": "https://example.com/blackitude-museum.jpg",
+      "price": 3000
+    },
+    {
+      "id": "s6",
+      "name": "Marché Central Yaoundé",
+      "description": "The city's largest and most popular market, offering crafts, fabrics, food, and everyday goods in a lively atmosphere.",
+      "category": "shopping",
+      "region": "Yaoundé",
+      "lat": 3.8660272,
+      "lng": 11.5183064,
+      "imageUrl": "https://example.com/marche-central.jpg",
+      "price": 0
+    },
+    {
+      "id": "s7",
+      "name": "Chutes de Nachtigal",
+      "description": "Scenic rapids and falls on the Sanaga River, a popular day-trip destination surrounded by nature just outside the city.",
+      "category": "nature",
+      "region": "Centre Region",
+      "lat": 4.3490889,
+      "lng": 11.6338104,
+      "imageUrl": "https://example.com/nachtigal-falls.jpg",
+      "price": 0
+    },
+    {
+      "id": "s8",
+      "name": "Lac Municipal de Yaoundé",
+      "description": "A municipal lake in the city center offering a peaceful walking path, popular for short strolls.",
+      "category": "nature",
+      "region": "Yaoundé",
+      "lat": 3.8653307,
+      "lng": 11.5104717,
+      "imageUrl": "https://example.com/lac-municipal.jpg",
+      "price": 0
+    },
+    {
+      "id": "s9",
+      "name": "Eco Park",
+      "description": "A clean, eco-friendly recreational park featuring water features, a small zoo, and a museum, blending African and Western design.",
+      "category": "nature",
+      "region": "Yaoundé",
+      "lat": 3.7867188,
+      "lng": 11.4879595,
+      "imageUrl": "https://example.com/eco-park.jpg",
+      "price": 2000
+    },
+    {
+      "id": "s10",
+      "name": "National Museum of Yaoundé",
+      "description": "Housed in a former presidential palace, this museum showcases Cameroon's history, art, and cultural heritage.",
+      "category": "culture",
+      "region": "Yaoundé",
+      "lat": 3.8621746,
+      "lng": 11.5168778,
+      "imageUrl": "https://example.com/national-museum.jpg",
       "price": 2000
     }
   ],
