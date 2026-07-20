@@ -16,5 +16,14 @@ app.get('/', (req, res) => {
   res.json({ message: 'GlobeTrotter API is running' });
 });
 
+const authRoutes = require('./routes/auth.routes');
+app.use('/auth', authRoutes);
+
+// Example of a protected route, for testing the middleware:
+const authMiddleware = require('./middleware/auth');
+app.get('/protected-test', authMiddleware, (req, res) => {
+  res.json({ message: 'You are authenticated', userId: req.userId });
+});
+
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
